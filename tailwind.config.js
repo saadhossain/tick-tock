@@ -5,7 +5,8 @@ module.exports = {
         extend: {
             colors: {
                 "primary": "#FF5E3E",
-                "secondary": "#595182"
+                "secondary": "#38297A",
+                "purpledark": "#20154F"
             },
             fontFamily: {
                 'josefin': ['Josefin Sans', 'sans-serif'],

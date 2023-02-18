@@ -11,6 +11,7 @@ const TodoForm = ({ description, setDescription }: desProp) => {
     const tasks: TodoModel = {
         description,
         isDone: false,
+        addedBy: 'mshsarkar@gmil.com',
         addedOn: new Date()
     }
     const handleAddTask = (e: React.FormEvent) => {
